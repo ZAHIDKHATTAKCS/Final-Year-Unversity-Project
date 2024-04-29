@@ -1,0 +1,174 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+.body{
+    background-color: rgb(95, 95, 149);
+    color: white;
+    font-family: 'poppins','sans-serif';
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.main_logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 30px;
+    margin: 2px 0px;
+}
+
+.nav_bar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(22, 22, 76);
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.nav_bar ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: auto;
+}
+
+.nav_bar ul li{
+    margin-right: 80px;
+    
+}
+
+.nav_bar ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.sign_in_button{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.Register{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+      /* css for registration form */
+
+.form {
+
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #dacece;
+    border-radius: 8px;
+    box-shadow: 5px 5px 30px blue;
+    color: black;
+  }
+  
+  .sign-in-form h2,h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.login_via_google_btn{
+  display: flex;
+  width: 250px;
+  padding: 7px;
+  background-color: orange;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.google_icon{
+  width: 30px;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.login_via_google_btn p{
+ margin: auto;
+ font-size: 18px;
+}
+
+.login_via_facebook_btn{
+  display: flex;
+  width: 250px;
+  padding: 7px;
+  background-color: rgb(158, 158, 224);
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+
+.facebook_icon{
+  width: 30px;
+  border-radius: 30px;
+  margin: auto;
+ 
+}
+
+.login_via_facebook_btn p{
+  margin: auto;
+ font-size: 18px;
+ color: white;
+}
+
+.form h4{
+  text-align: center;
+}
+
+ /* input fields css */
+ .username_input{
+  display: flex;
+  width: 98%;
+  padding: 5px;
+ }
+
+ .username_logo{
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+  padding: 5px;
+  background-color: rgb(180, 176, 176);
+  border-radius: 1px;
+ }
+
+ .username{
+  padding: 2px;
+  width: 90%;
+ }
+
+ .create_account_btn{
+  width: 90%;
+  margin: 8px 13px;
+  padding: 3px;
+  border-radius: 3px;
+ }
+
+ .get_register_btn{
+  width: 90%;
+  margin: 8px 13px;
+  padding: 3px;
+  border-radius: 3px;
+ }
+
