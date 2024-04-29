@@ -1,78 +1,9 @@
- *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
- }
+ 
 
-.body{
-    background-color: rgb(95, 95, 149);
-    color: white;
-    font-family: 'poppins','sans-serif';
-    width: 100%;
-    margin: 0px;
-    box-sizing: border-box;
-}
+added assets folder which contains bootstrap file, css file and min.js file. secondly added index file which contains two forms. "
+[master 5620870] added assets folder which contains bootstrap file, css file and min.js file. secondly added index file which contains two forms.
 
-.container{
-    width: 100%;
 
-}
-
-.main_logo{
-    height: 70px;
-    width: 70px;
-    border-radius: 30px;
-    margin: 2px 0px;
-}
-
-.nav_bar{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(22, 22, 76);
-    padding: 20px;
-    border-radius: 15px;
-
-}
-
-.nav_bar ul{
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
-    margin: auto;
-}
-
-.nav_bar ul li{
-    margin-right: 80px;
-    
-}
-
-.nav_bar ul li a{
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-    display: flex;
-}
-
-.sign_in_button{
-    width: auto;
-    height: 50px;
-    padding: 10px;
-    font-size: 20px;
-    margin: auto;
-    border-radius: 10px;
-}
-
-.Register{
-    width: auto;
-    height: 50px;
-    padding: 10px;
-    font-size: 20px;
-    margin: auto;
-    border-radius: 10px;
-}
-
-      /* css for registration form */
 
 .form {
 
