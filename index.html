@@ -1,228 +1,168 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Final Year Project</title>
+    <head>
+        <title>home</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-    <link rel="icon" type="image/x-icon" href="assets/Icons/facebook_icon.png">
-    <!-- css links -->
-    <link rel="stylesheet" href="assets/fyp.css">
-    <link rel="stylesheet" href="assets/Css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/js/bootstrap.min.js">
-     
-</head>
+        <!-- Bootstrap CSS v5.0.2 -->
+        <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+       
+        <!-- min.js link -->
+       <script type="text/JavaScript" src="assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 
-      <!-- starting of body  -->
+       <!-- font awesome -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<body class="body">
-    <div class="container-fluid">
-        <div class="nav_bar">
-            <img src="assets/Icons/main_logo.jpeg" alt="logo" class="main_logo">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
+        <!-- css link -->
+        <link rel="stylesheet" href="assets/custom_css_files/fyp.css">
+    </head>
 
-            <button class="btn-success sign_in_button">Sign In</button>
-            <button class="btn-success Register">Register</button>
+    <body class="body">
+            <div class="container-fluid">
+                <div class="nav_bar">
+                    <img src="assets/Icons/main_logo.jpeg" alt="logo" class="main_logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+        
+                    <button class="btn-success sign_in_button">Sign In</button>
+                    <button class="btn-success Register">Register</button>
+        
+                </div> <br>
+        
+                  <!-- Sign in Form -->
+                <div class="form">
+                    <form class="sign-in-form">
+                      <h2>Create Account</h2>
+                      <h3>Get started with your free account</h3>
+        
+                       <!-- google login -->
+                      <div class="google_btn d-flex align-items-center justify-content-center">               
+                        <i class="fab fa-google"></i>
+                        <p>Login via Google</p>
+                      </div>
+                      
+                      <!--  Facebook login -->
+                      <div class="facebook_btn d-flex justify-content-center align-items-center">                   
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Login via Facebook</p>                       
+                      </div>
+        
+                      <p>------- OR -------</p>
+        
+                      <!-- username -->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-user d-flex align-items-center justify-content-center"></i>
+                        <input 
+                         type="text"
+                         name=""
+                         class="form-control"
+                         placeholder="Enter your Name">
+                      </div>
+        
+                         <!-- email -->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-envelope d-flex align-items-center justify-content-center"></i>
+                        <input 
+                         type="email"
+                         name=""
+                         class="form-control"
+                         placeholder="Enter your Email">
+                      </div>
+        
+                       <!-- password -->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-lock d-flex align-items-center justify-content-center"></i>
+                        <input 
+                         type="text"
+                         name=""
+                         class="form-control"
+                         placeholder="Enter your Password">
+                      </div>
+        
+                      <!-- Create Account Button -->
+                      <button class="btn-primary create_account_btn">
+                        Create Account
+                      </button>
+        
+                    </form>   
+                  </div>
+                    
+                  <!-- Registration Form -->
+                 
+                  <div class="form">
+                    <form class="sign-in-form">
+                      <h2>Get Register</h2>
+        
+                      <!-- username -->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-user d-flex align-items-center justify-content-center"></i>
+                        <input 
+                         type="text"
+                         name=""
+                         class="form-control"
+                         placeholder="Enter your Name">
+                      </div>
+        
+                         <!-- email -->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-envelope d-flex align-items-center justify-content-center"></i>
+                        <input 
+                         type="email"
+                         name=""
+                         class="form-control"
+                         placeholder="Enter your Email">
+                      </div>
+                       
+                        <!-- phone -->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"></i>
+                        <input 
+                         type="text"
+                         class="form-control"
+                         placeholder="Enter your Phone Number">
+                      </div>
+        
+                       <!-- password -->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-lock d-flex align-items-center justify-content-center"></i>
+                        <input 
+                         type="text"
+                         name=""
+                         class="form-control"
+                         placeholder="Enter your Password">
+                      </div>
+        
+                        <!-- Reapeat password-->
+                      <div class="user_inputs d-flex align-items-center justify-content-center">
+                        <i class="fa-solid fa-lock d-flex align-items-center justify-content-center"></i>
+                        <input 
+                        type="text"
+                        name=""
+                        class="form-control"
+                        placeholder="Enter your password again">
+                      </div>
+        
+                      <!-- Create Account Button -->
+                      <button class="btn-success register_submit_btn">
+                        Register
+                      </button>
+        
+                    </form>   
+                  </div>
+            </div>
 
-        </div> <br>
 
-          <!-- Sign in Form -->
-        <div class="form">
-            <form class="sign-in-form">
-              <h2>Create Account</h2>
-              <h3>Get started with your free account</h3>
 
-               <!-- google button -->
-              <div class="login_via_google_btn">
-                
-                <i class="fab fa-google"></i>
-                 <p>Login via Google</p>
-              </div>
-              
-              <!-- Login Via Facebook Section -->
-              <div class="login_via_facebook_btn">
-
-                <img
-                 src="assets/Home/facebook_icon.png"
-                 alt=" Facebook_icon"
-                 class="facebook_icon">
-                 <p>Login via Facebook</p>
-              </div>
-
-              <h4>------- OR -------</h4>
-
-              <!-- input fields -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/username.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name=""
-                 class="username"
-                 placeholder="Enter your Name">
-              </div>
-
-                 <!-- email input div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/email.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name=""
-                 class="username"
-                 placeholder="Enter your Email">
-              </div>
-               
-                <!-- phone number input div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/phone.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 class="username"
-                 placeholder="Enter your Phone Number">
-              </div>
-
-               <!-- password input div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/password.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name=""
-                 class="username"
-                 placeholder="Enter your Password">
-              </div>
-
-                <!-- Reapeat password div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/password.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name=""
-                 class="username"
-                 placeholder="Enter your password again">
-              </div>
-
-              <!-- Create Account Button -->
-              <button class="btn-primary create_account_btn">
-                Create Account
-              </button>
-
-            </form>   
-          </div>
-            
-          <!-- Registration Form -->
-          <div class="form">
-            <form class="sign-in-form">
-              <h2>Get Register</h2>
-
-              <!-- input fields -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/username.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name=""
-                 class="username"
-                 placeholder="Enter your Name"
-                 required="required">
-              </div>
-
-                 <!-- email input div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/email.png"
-                 alt="email_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name="email"
-                 class="username"
-                 placeholder="Enter your Email"
-                 required="required">
-              </div>
-               
-                <!-- phone number input div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/phone.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name="phone_number"
-                 class="username"
-                 placeholder="Enter your Phone Number"
-                 required="required">
-              </div>
-
-               <!-- password input div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/password.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name="password"
-                 class="username"
-                 placeholder="Enter your Password"
-                 required="required">
-              </div>
-
-                <!-- Reapeat password div -->
-              <div class="username_input">
-                <img
-                 src="assets/Home/password.png"
-                 alt="username_logo"
-                 class="username_logo">
-
-                <input 
-                 type="text"
-                 name="repeat_password"
-                 class="username"
-                 placeholder="Enter your password again"
-                 required="required">
-              </div>
-
-              <!-- Create Account Button -->
-              <button class="btn-success get_register_btn">
-                Register
-              </button>
-
-            </form>   
-          </div>
-
-    </div>
-    
-</body>
+       
+    </body>
 </html>
