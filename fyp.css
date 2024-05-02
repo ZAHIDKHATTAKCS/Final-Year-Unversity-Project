@@ -39,7 +39,6 @@
 .nav-link:hover{
   text-decoration: underline;
   box-shadow: 2px 2px 5px greenyellow;
-  transition: 1s ease-in-out;
 }
 
 
