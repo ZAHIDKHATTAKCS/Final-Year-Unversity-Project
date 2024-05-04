@@ -32,7 +32,7 @@
 ---
 `Muhammad Zahid`
 
-<img src="icons/php icon.png" width="100" align="right">
+<img src="assets/icons/php icon.png" width="100" align="right">
 
 <img src="assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" width="200px">
  
