@@ -89,45 +89,24 @@
   }
 
 .google_btn{
-  
   width: 200px;
   padding: 2px 10px;
   background-color: orange;
-  margin: auto;
   border-radius: 10px;
 }
 
-.google_btn p{
-   margin: auto;
-}
+
 
 .facebook_btn{
   width: 200px;
   padding: 2px 10px;
   background-color: rgb(158, 158, 224);
-  margin: auto;
   border-radius: 10px;
   margin-top: 8px;
 }
 
-.facebook_btn p{
-   margin: auto;
-}
-
-.form p {
-  text-align: center;
-}
-
- /* input fields css */
- .user_inputs{
-  width: 98%;
-  padding: 5px;
- }
-
  .user_inputs i{
-  background-color: gray;
-  padding:auto;
-  margin: auto;
+  background-color: rgb(208, 188, 188);
   width: 35px;
   height: 35px;
  }
