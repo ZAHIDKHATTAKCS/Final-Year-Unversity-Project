@@ -87,44 +87,6 @@
     margin-bottom: 20px;
     text-align: center;
   }
-
-.google_btn{
-  width: 200px;
-  padding: 2px 10px;
-  background-color: orange;
-  border-radius: 10px;
-}
-
-
-
-.facebook_btn{
-  width: 200px;
-  padding: 2px 10px;
-  background-color: rgb(158, 158, 224);
-  border-radius: 10px;
-  margin-top: 8px;
-}
-
- .user_inputs i{
-  background-color: rgb(208, 188, 188);
-  width: 35px;
-  height: 35px;
- }
-
- .create_account_btn{
-  width: 90%;
-  margin: 8px 13px;
-  padding: 3px;
-  border-radius: 3px;
- }
-
- .register_submit_btn{
-  width: 90%;
-  margin: 8px 13px;
-  padding: 3px;
-  border-radius: 3px;
- }
-
 /* media querry section */
 @media screen and (max-width:600px) {
   .main_logo{
