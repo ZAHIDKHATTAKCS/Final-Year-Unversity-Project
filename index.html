@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>home</title>
+  <title>Home</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/Bootstrap 5/css/bootstrap.min.css" />
 
   <!-- Bootstrap 4 link -->
-  <link rel="stylesheet" href="assets/Bootstrap 4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/Bootstrap 4/css/bootstrap.min.css" />
 
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -19,11 +19,10 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Animate.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- min.js link -->
   <script type="text/JavaScript" src="assets/Bootstrap 5/js/bootstrap.min.js"></script>
-
 
   <!-- font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -36,56 +35,41 @@
 </head>
 
 <body class="body">
+
   <div class="container-fluid navbar_container">
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container">
+
+
+    <nav class="navbar">
+
+
+      <div class="container d-flex justify-content-between">
+
         <!-- Logo -->
-        <img src="assets/Icons/main_logo.jpeg" alt="logo" class="main_logo" />
 
-        <!-- Toggler button for mobile view -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <img src="assets/Icons/main_logo.jpeg" style="width: 80px; height: 70px;" alt="logo" class="main_logo" />
 
-        <!-- Navbar items -->
-        <div class="collapse navbar-collapse navbar" id="navbarNav">
-          <div>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
+        <!-- User Icon -->
+        <div>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQ</a>
-            </li>
+          <div class="dropdown">
+            <img src="assets/Icons/User icon.png" width="70px" class="dropdown-toggle mr-5" type="button"
+              id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="./Seller/seller.html">Seller</a></li>
+              <li class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./Buyer/buyer.html">Buyer</a></li>
             </ul>
-            </div>
-
-        
+          </div>
         </div>
 
 
-        <!-- Sign In and Register buttons -->
-        <div class="d-flex">
-          <a href="signin.html" class="btn btn-primary m-2" type="button">Sign In</a>
-          <a href="register.html" class="btn btn-success m-2" type="button">Register</a>
-        </div>
-      </div>
+
     </nav>
+
+
   </div>
+
+
   <!-- the end of navbar container -->
 
 
@@ -99,8 +83,10 @@
         <h1 class="animate__animated animate__slideInLeft animated-h1">Online Shop Tracking System</h1> <br>
         <p class="animate__animated animate__slideInDown animated-p">
           Welcome to Online Shop Tracking system, your ultimate online shopping tracking solution! Here at Track It, we
-          understand the anticipation and excitement that comes with online shopping. Waiting for your precious purchases
-          to arrive can be an anxious time, and that's where we step  in. Our platform offers real time tracking, updates, and
+          understand the anticipation and excitement that comes with online shopping. Waiting for your precious
+          purchases
+          to arrive can be an anxious time, and that's where we step in. Our platform offers real time tracking,
+          updates, and
           notifications for all your online shopping orders across various retailers and
           couriers, all in one place
         </p>
@@ -147,28 +133,28 @@
 
       <h2 class="Popular-catageries"><u>Popular Categories</u> </h2>
 
-        <!-- Laptop -->
+      <!-- Laptop -->
       <div class="categories-card  m-2 align-items-center justify-content-center text-center">
-        
+
         <img src="assets/Icons/Laptops/laptop.png" class="card-img-top" width="150px" height="150px" alt="...">
 
         <div class="card-body">
           <h5 class="card-title text-primary">Laptops</h5>
-         
+
           <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
-        
-       <!-- camera -->
+
+      <!-- camera -->
       <div class="categories-card  m-2 align-items-center justify-content-center text-center">
-        <img src="assets/Icons/Cameras/camera1.png" class="card-img-top"  alt="...">
+        <img src="assets/Icons/Cameras/camera1.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title text-primary">Cameras</h5>
-         
+
           <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
-        
+
       <!-- mobile -->
       <div class="categories-card m-2 align-items-center justify-content-center text-center">
         <img src="assets/Icons/Mobile/mobile1.png" class="card-img-top" width="150px" height="150px" alt="...">
@@ -177,224 +163,135 @@
           <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
-      
+
       <!-- headphones -->
       <div class="categories-card  m-2 align-items-center justify-content-center text-center">
-        <img src="assets/Icons/Headphones/headphone1.png" class="card-img-top"
-        width="150px" height="150px" alt="...">
+        <img src="assets/Icons/Headphones/headphone1.png" class="card-img-top" width="150px" height="150px" alt="...">
         <div class="card-body">
           <h5 class="card-title text-primary">Headphones</h5>
           <a href="#" class="btn btn-primary">Details</a>
         </div>
       </div>
-     
-      </div>
+
     </div>
-
-<br> <br>
-    <!-- New Arrivals -->
-    <div class="container-fluid">
-    
-      <div class="row d-flex p-1 mt-2 align-items-center justify-content-center text-center">
-        <h2 class="New-arrivals"> <span>New Arrivals </span> </h2>
-        <h2 class="Product"><u>Products</u></h2>
-
-         <!-- 1 -->
-        <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Laptops/laptop3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-         
-        <!-- 2 -->
-        <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Headphones/headphone2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-        
-        <!-- 3 -->
-        <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Cameras/camera3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-        <!-- 4 -->
-        <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Laptops/laptop5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-        <!-- 5 -->
-        <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Mobile/mobile2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-         <!-- 6 -->
-        <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Headphones/headphone3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-        <!-- 7 -->
-        <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Mobile/mobile3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-        <!-- 8 -->
-        <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Cameras/camera10.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-         <!-- 9 -->
-        <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Headphones/headphone4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-        <!-- 10 -->
-        <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
-          <img src="assets/Icons/Laptops/laptop7.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h4 class="card-title">Dell Core i7</h4>
-            <p>Price : 50000 PKR</p>
-            <a href="#" class="btn btn-primary">Goto Details</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-
-
-  <!-- Sign in Form -->
-  <div class="form">
-    <form class="sign-in-form">
-      <h2>Sign In</h2>
-      
-
-      <!-- google login -->
-      <div class="google_btn d-flex align-items-center justify-content-center m-auto">
-        <i class="fab fa-google "></i>
-        <p class="m-auto">Login via Google</p>
-      </div>
-
-      <!--  Facebook login -->
-      <div class="facebook_btn d-flex justify-content-center align-items-center m-auto mt-2">
-        <i class="fa-brands fa-facebook"></i>
-        <p class="m-auto">Login via Facebook</p>
-      </div>
-
-            <p class="text-center m-2">------- OR -------</p>
-
-      <!-- username -->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-user d-flex align-items-center justify-content-center"></i>
-        <input type="text" name="" class="form-control" placeholder="Enter your Name">
-      </div>
-
-      <!-- email -->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-envelope d-flex align-items-center justify-content-center"></i>
-        <input type="email" name="" class="form-control" placeholder="Enter your Email">
-      </div>
-
-      <!-- password -->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-lock d-flex align-items-center justify-content-center"></i>
-        <input type="text" name="" class="form-control" placeholder="Enter your Password">
-      </div>
-
-      <!-- Create Account Button -->
-      <button class="btn-primary create_account_btn p-1">
-        Sign In
-      </button>
-
-    </form>
   </div>
 
-  <!-- Registration Form -->
+  <br> <br>
+  <!-- New Arrivals -->
+  <div class="container-fluid">
 
-  <div class="form">
-    <form class="sign-in-form">
-      <h2>Get Registered </h2>
-      <h3>Get started with your free account</h3>
+    <div class="row d-flex p-1 mt-2 align-items-center justify-content-center text-center">
+      <h2 class="New-arrivals"> <span>New Arrivals </span> </h2>
+      <h2 class="Product"><u>Products</u></h2>
 
-      <!-- username -->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-user d-flex align-items-center justify-content-center"></i>
-        <input type="text" name="" class="form-control" placeholder="Enter your Name">
+      <!-- 1 -->
+      <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Laptops/laptop3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
       </div>
 
-      <!-- email -->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-envelope d-flex align-items-center justify-content-center"></i>
-        <input type="email" name="" class="form-control" placeholder="Enter your Email">
+      <!-- 2 -->
+      <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Headphones/headphone2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
       </div>
 
-      <!-- phone -->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"></i>
-        <input type="text" class="form-control" placeholder="Enter your Phone Number">
+      <!-- 3 -->
+      <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Cameras/camera3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
       </div>
 
-      <!-- password -->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-lock d-flex align-items-center justify-content-center"></i>
-        <input type="text" name="" class="form-control" placeholder="Enter your Password">
+      <!-- 4 -->
+      <div class=" Arrivals-card col-sm-6 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Laptops/laptop5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
       </div>
 
-      <!-- Reapeat password-->
-      <div class="user_inputs d-flex align-items-center justify-content-center p-1">
-        <i class="fa-solid fa-lock d-flex align-items-center justify-content-center"></i>
-        <input type="text" name="" class="form-control" placeholder="Enter your password again">
+      <!-- 5 -->
+      <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Mobile/mobile2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
       </div>
 
-      <!-- Create Account Button -->
-      <button class="btn-success register_submit_btn p-1">
-        Register
-      </button>
+      <!-- 6 -->
+      <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Headphones/headphone3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
+      </div>
 
-    </form>
+      <!-- 7 -->
+      <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Mobile/mobile3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Cameras/camera10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Headphones/headphone4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class=" Arrivals-card col-sm-12 col-md-4 col-lg-2 m-3">
+        <img src="assets/Icons/Laptops/laptop7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h4 class="card-title">Dell Core i7</h4>
+          <p>Price : 50000 PKR</p>
+          <a href="#" class="btn btn-primary">Goto Details</a>
+        </div>
+      </div>
+
+    </div>
   </div>
+
+
+
+
+  <!-- the end of navbar container -->
+
 
 </body>
 
