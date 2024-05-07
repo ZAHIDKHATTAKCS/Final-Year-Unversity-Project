@@ -124,6 +124,26 @@
   box-shadow: 2px 2px 10px rgb(175, 166, 166);
 }
 
+/* Banner */
+.Banner-row{
+  color: black;
+  background-color: #6fcdd2;
+  border-radius: 30px;
+}
+
+.Promo h2{
+  font-weight: bolder;
+
+}
+.Promo a{
+  color: white;
+  font-size: 30px;
+  background-color: rgb(22, 172, 22);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
 /* css for registration form */
 
 .form {
