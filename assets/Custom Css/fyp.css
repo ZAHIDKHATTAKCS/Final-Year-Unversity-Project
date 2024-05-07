@@ -130,7 +130,6 @@
   background-color: #6fcdd2;
   border-radius: 30px;
 }
-
 .Promo h2{
   font-weight: bolder;
 
@@ -142,6 +141,26 @@
   padding: 10px;
   border-radius: 10px;
 }
+
+/* news latter portion */
+.News-Later-row{
+  background-color: #6fcdd2;
+  border-radius: 20px;
+}
+.News-Later{
+  color: black;
+  font-weight: 600;
+}
+
+.input-group-text{
+  color: white;
+  font-weight: bold;
+  background-color:rgb(42, 194, 42) ;
+  border-radius: 20px;
+}
+
+
+
 
 
 /* css for registration form */
