@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    background-color:#cdf5ec;
+    color: white;
+    font-family: "poppins", "sans-serif";
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Product Banner */
+  .product-banner{
+    width: 100%;
+    min-width: 150px;
+    max-height: 250px;
+    border-radius: 30px;
+  }
+
+  .card{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+  }
+
+  .card-img-top{
+    width: 200px;
+    height: 180px;
+    margin: 5px;
+  }
