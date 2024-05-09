@@ -42,6 +42,9 @@
 }
 
 /* Contact Banner */
+.contact{
+  background-color: rgb(147, 246, 213);
+}
 .btn{
   border-radius: 20px;
   background-color: rgb(212, 206, 206);
@@ -53,4 +56,8 @@
    max-height: 250px;
    border-radius: 40%;
   
+}
+.Footer{
+  background-color: aquamarine;
+  font-weight: bold;
 }
