@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #cdf5ec;
+  color: black;
+  font-family: "poppins", "sans-serif";
+  width: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid {
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.row {
+  background-color: rgb(127, 221, 189);
+}
+
+.card {
+  background-color: aquamarine;
+}
+
+.big-img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.small-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+
+}
+
+/* explore more row */
+.Explore-row{
+  background-color:#cdf5ec ;
+}
+
+.card-img-top{
+  width: 150px;
+  height: 140px;
+}
+
+.explore-card{
+  background-color: aquamarine;
+}
