@@ -34,64 +34,61 @@
 </head>
 
 <body class="body">
-  <div class="container-fluid navbar_container">
-
-
-    <nav class="navbar">
-
-
-      <div class="container d-flex justify-content-between">
-        <!-- Logo -->
-
-        <img src="../assets/Icons/main_logo.jpeg" style="width: 80px; height: 70px;" alt="logo" class="main_logo" />
-
-        <!-- User Icon -->
-        <div>
-
-          <div class="dropdown">
-            <img src="../assets/Icons/User icon.png" width="70px" class="dropdown-toggle mr-5" type="button"
-              id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="../Seller/seller.html">Seller</a></li>
-            </ul>
-          </div>
+  <nav class="navbar w-100 navbar_container">
+    <div class="container-fluid container-md d-flex d-sm-flex justify-content-sm-around justify-content-md-between">
+      <!-- Logo -->
+      <img src="../assets/Icons/main_logo.jpeg" style="width: 80px; height: 70px" alt="logo" class="rounded" />
+      <!-- User Icon -->
+      <div>
+        <div class="dropdown">
+          <img src="../assets/Icons/User icon.png" alt="..." width="70px" class="dropdown-toggle me-sm-5" type="button"
+            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" />
+          <ul class="dropdown-menu" style="left: auto; right: 0;" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="../Seller/seller.html">Seller</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-  </div>
-  <br><br>
-  <!-- the end of navbar container -->
 
-  <marquee behavior="alternate" class="text-dark" style="font-size: 20px;">Enter your Details to Login as a Buyer</marquee>
+
   <!-- Sign in Form -->
-  <div class="form">
-    <form class="sign-in-form">
-      <h3>Sign In</h3>
+  <div class="row d-flex justify-content-center w-100">
+    <marquee behavior="" direction="" class="text-dark fs-5 mt-3">Enter your Details to Login as a Buyer</marquee>
+    <form class="col-11 col-sm-8 col-md-4 form border border-danger mb-3 text-dark rounded-2 ">
+      <h3 class="mb-5 text-dark">Login as a Buyer</h3>
 
-      <!-- email -->
+      <!-- Email -->
       <div class="input-group">
         <i class="fa-regular fa-envelope input-group-text"></i>
-        <input type="email" name="" class="form-control" placeholder="Enter your Email" required/>
+        <input type="email" name="email" class="form-control" placeholder="Enter your Email" required />
       </div>
 
-      <!-- password -->
+      <!-- Password -->
       <div class="mt-3 input-group">
         <i class="fa-solid fa-lock input-group-text"></i>
-        <input type="text" name="" class="form-control" placeholder="Enter your Password" required/>
+        <input type="password" name="" class="form-control" placeholder="Create Password" required />
       </div>
+
+
 
       <!-- Sign in Button -->
       <div class="d-flex justify-content-center">
         <button type="submit" class="mt-3 btn btn-primary w-100">
-          Sign In
+          Sign in
         </button>
       </div>
 
-      <!-- Don't have account Signup -->
-      <div class="d-flex justify-content-center mt-3">
-        <p>Don't have account ?</p>
-        <a href="buyer.html" class="ml-2">Create</a>
-      </div>
+      <!-- already have account -->
+      <p class="d-flex justify-content-center mt-3">
+        <span>
+          I have no Account ?
+        </span>
+        <a href="buyer.html" class="ml-2">Create Account</a>
+      </p>
     </form>
   </div>
 </body>

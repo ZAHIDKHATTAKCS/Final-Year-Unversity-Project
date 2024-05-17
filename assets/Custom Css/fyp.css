@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+ 
 }
 
 .body {
@@ -15,6 +16,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
+
 }
 
 .navbar_container {
@@ -25,22 +28,11 @@
   font-weight: bolder;
 }
 
-.main_logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 20px;
-  margin-right: 200px;
-}
-
-.nav-link {
+.nav-link{
   color: white;
-  font-size: 20px;
-  margin-left: 20px;
 }
-
 .nav-link:hover {
   color: blue;
-  text-decoration: underline;
 }
 
 .animated-h1 {
@@ -55,126 +47,62 @@
   font-weight: bolder;
 }
 
-.video {
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+video{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 100%;
 }
 
-.features {
-  color: black;
-  font-weight: bolder;
+.card{
+  box-shadow: 2px 2px 12px gray;
+  transition: transform 0.3s ease-in-out;
 }
 
-.card-body i {
-  color: black;
-  font-size: 50px;
+.card:hover{
+  box-shadow: 1px 1px 10px blue;
+  /* border: 2px solid black; */
+  transform: scale(1.03);
+  cursor: pointer;
 }
 
-.card-body p {
-  color: black;
-}
+/* medai query by zahid khattak for popular categories cards and new-arrivals-cards */
+@media screen and (min-width:300px) and (max-width:767px) {
+  .popular-categories-cards{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .new-arrivals-cards{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-/* .Popular-catageries */
-
-.Popular-catageries {
-  color: black;
-  font-weight: bolder;
-  margin-bottom: 40px;
-}
-
-.categories-card {
-  background-color: #cdf5ec;
-  width: 18rem;
-}
-
-.categories-card:hover {
-  background-color: #92ddf2;
-  border-radius: 10px;
-  box-shadow: 2px 4px 10px rgb(175, 166, 166);
-}
-
-.card-img-top {
-  height: 100px;
-  width: 100px;
 }
 
 /* New Arrivals */
 .New-arrivals span {
-  padding: 10px;
-  border-radius: 30px;
   background-color: #53e1e9;
-  color: black;
-  font-weight: bolder;
-  margin-bottom: 40px;
 }
 
-.Product {
-  color: rgb(172, 28, 28);
-  margin: 10px;
-  font-weight: bolder;
-}
-.Arrivals-card {
-  padding: 10px;
-  background-color: #aceee0;
-  color: black;
-  font-weight: bolder;
-  border-radius: 5px;
-}
-.Arrivals-card:hover {
-  box-shadow: 2px 2px 10px rgb(175, 166, 166);
-}
 
-/* Banner */
+
+/* Mega sales Banner */
 .Banner-row{
-  color: black;
   background-color: #6fcdd2;
-  border-radius: 30px;
 }
-.Promo h2{
-  font-weight: bolder;
-
-}
-.Promo a{
-  color: white;
-  font-size: 30px;
-  background-color: rgb(22, 172, 22);
-  padding: 10px;
-  border-radius: 10px;
-}
-
-/* news latter portion */
-.News-Later-row{
-  background-color: #6fcdd2;
-  border-radius: 20px;
-}
-.News-Later{
-  color: black;
-  font-weight: 600;
-}
-
-.Subscribe-btn{
-  color: white;
-  font-weight: bold;
-  background-color:rgb(42, 194, 42) ;
-  border-radius: 20px;
-}
-
-
-
 
 
 /* css for registration form */
-
 .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35%;
   padding: 20px;
   margin-top: 5%;
   border-radius: 8px;
   box-shadow: 2px 3px 20px blue;
-  color: black;
 }
 
 .sign-in-form h2,
@@ -182,30 +110,3 @@ h3 {
   margin-bottom: 20px;
   text-align: center;
 }
-
-/* media querry section */
-@media screen and (max-width: 600px) {
-  .main_logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    margin-right: 0px;
-  }
-}
-
-
-/* Zahid Css  and Media Queries don't code inside it*/
-
-/* For Mobile Phones , Small Devices */
-@media screen and (max-width: 1200px){
-  .body{
-    height: 100vh;
-  }
-  .form{
-    border: 1px solid black;
-    width: 60%;
-  }
-}
-
-
-/* zahid css end here  code upper or down from it*/

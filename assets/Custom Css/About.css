@@ -15,35 +15,3 @@
     justify-content: center;
     align-items: center;
   }
-
-  .container-fluid{
-    overflow: hidden;
-    font-weight: bold;
-  }
-  /* About-Banner */
-  .About-banner{
-    width: 100%;
-    min-width: 150px;
-    max-height: 300px;
-    border-radius: 30px;
-  }
-
-  /* Team-members-row */
-  
-  .Team-members-row{
-    font-weight: bolder;
-  }
-
-  .Team-members-row h1{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
-    font-weight: bolder;
-    color: green;
-    margin-top: 10px;
-  }
-
-  .profile-img{
-    max-width: 250px;
-    max-height: 250px;
-    border-radius: 50%;
-  }

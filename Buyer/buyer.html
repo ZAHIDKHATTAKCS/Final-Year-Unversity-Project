@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="../assets/Bootstrap 5/css/bootstrap.min.css" />
 
   <!-- Bootstrap 4 link -->
-  <link rel="stylesheet" href="assets/Bootstrap 4/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../assets/Bootstrap 4/css/bootstrap.min.css" />
 
   <!-- font awesome -->
@@ -23,7 +22,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <!-- min.js link -->
-  <script type="text/JavaScript" src="assets/Bootstrap 5/js/bootstrap.min.js"></script>
   <script type="text/JavaScript" src="../assets/Bootstrap 5/js/bootstrap.min.js"></script>
 
   <!-- font awesome -->
@@ -37,40 +35,31 @@
 
 <body class="body">
 
-  <div class="container-fluid navbar_container">
-
-
-    <nav class="navbar">
-
-
-      <div class="container d-flex justify-content-between">
-        <!-- Logo -->
-
-        <img src="../assets/Icons/main_logo.jpeg" style="width: 80px; height: 70px;" alt="logo" class="main_logo" />
-
-        <!-- User Icon -->
-        <div>
-
-          <div class="dropdown">
-            <img src="../assets/Icons/User icon.png" width="70px" class="dropdown-toggle mr-5" type="button"
-              id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="../Seller/seller.html">Seller</a></li>
-            </ul>
-          </div>
+  <nav class="navbar w-100 navbar_container">
+    <div class="container-fluid container-md d-flex d-sm-flex justify-content-sm-around justify-content-md-between">
+      <!-- Logo -->
+      <img src="../assets/Icons/main_logo.jpeg" style="width: 80px; height: 70px" alt="logo" class="rounded" />
+      <!-- User Icon -->
+      <div>
+        <div class="dropdown">
+          <img src="../assets/Icons/User icon.png" alt="..." width="70px" class="dropdown-toggle me-sm-5" type="button"
+            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" />
+          <ul class="dropdown-menu" style="left: auto; right: 0;" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="../Seller/seller.html">Seller</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-  </div>
-  <!-- the end of navbar container -->
 
-  <!-- form -->
+
   <!-- Sign up Form -->
-  <div class="form mb-5">
-    <form>
+  <div class="row d-flex justify-content-center w-100">
+    <form class="col-11 col-sm-8 col-md-4 form border border-danger mb-3 text-dark rounded-2 ">
       <h3 class="mb-5 text-dark">Create account as a Buyer</h3>
-
-
       <!-- Name -->
       <div class="input-group mb-3 ">
         <i class="fa-regular fa-user input-group-text"></i>
@@ -87,14 +76,14 @@
       <!-- Password -->
       <div class="mt-3 input-group">
         <i class="fa-solid fa-lock input-group-text"></i>
-        <input type="text" name="" class="form-control" placeholder="Create Password" required />
+        <input type="password" name="" class="form-control" placeholder="Create Password" required />
       </div>
 
 
       <!-- Password -->
       <div class="mt-3 input-group">
         <i class="fa-solid fa-lock input-group-text"></i>
-        <input type="text" name="" class="form-control" placeholder="Confirm your Password" required />
+        <input type="password" name="" class="form-control" placeholder="Confirm your Password" required />
       </div>
 
 
@@ -110,7 +99,7 @@
         <span>
           Already have an account?
         </span>
-        <a href="../Buyer/buyer signin.html" class="ml-2">Sign in</a>
+        <a href="buyer signin.html" class="ml-2">Sign in</a>
       </p>
     </form>
   </div>

@@ -16,22 +16,13 @@
     align-items: center;
   }
 
-  /* Product Banner */
-  .product-banner{
-    width: 100%;
-    min-width: 150px;
-    max-height: 250px;
-    border-radius: 30px;
-  }
-
   .card{
-    background-color: aquamarine;
-    color: black;
-    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px gray;
   }
-
-  .card-img-top{
-    width: 180px;
-    height: 150px;
-    margin: 5px;
+  
+  .card:hover{
+    box-shadow: 3px 3px 10px green;
+    transform: scale(1.03);
+    cursor: pointer;
   }
