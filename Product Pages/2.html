@@ -36,9 +36,9 @@
 
   <link rel="stylesheet" href="assets/Custom Css/Add-To-Cart.css" />
 </head>
-<body class="body text-dark">
+<body class="body text-dark bg-light">
 
-    <header class="header w-100 d-flex align-item-center justify-content-between p-1 bg-info">
+    <header class="header d-flex align-item-center justify-content-between m-2 p-1 bg-info rounded-pill">
         <div>
           <img src="assets/Icons/main_logo.jpeg" style="width: 70px; height: 70px" alt="logo" class="rounded-circle m-1"alt="Shop-Logo">
         </div>
@@ -48,31 +48,31 @@
       </header>
 
     <div class="container mt-4">
-        <h2 class="text-center mb-4 fw-bolder">Your Cart</h2>
+        <h2 class="text-center mb-4 fw-bolder"><u>Your Cart</u></h2>
     
         <!-- Product Info Section -->
 
         <!-- image, description and remove button row -->
-        <div class="row d-sm-block d-md-flex justify-content-md-between align-items-center p-2 m-2 bg-light shadow-lg">
+        <div class="row d-sm-block d-md-flex justify-content-md-between align-items-center p-2 bg-warning rounded">
 
             <!-- image -->
             <div class="img  col-md-3 col-sm-8 d-flex justify-content-center align-items-center p-3 border-primary ">
           <img src="assets/Icons/Cameras/camera1.png" style="width: 100px; height: 70px" class="img-fluid" alt="Product Image">
           </div>
-          <div class="img-description  col-md-3 col-sm-8 justify-content-center align-items-center text-center fw-bolder ">
+          <div class="img-description  col-md-3 col-sm-8 justify-content-center align-items-center fw-bolder ">
             <h4>Product Name</h4>
             <p>Product Description: Alaka de noor kaar pa khpla okaa kha deer tangool ba na kay</p>
-            <p> <span class="bg-danger text-white rounded p-1"> $100 </span></p>
+            <p> <span class="bg-danger text-white rounded-pill p-1"> $100 </span></p>
         </div>
 
         <div class="remove col-md-3 col-sm-8 justify-content-center align-items-center text-center">
-            <button class="btn btn-danger">Remove from Cart</button>
+            <button class="btn btn-danger rounded-pill">Remove from Cart</button>
         </div>
           </div> <br>
 
            <!-- Product Summary row -->
 
-        <div class="row d-sm-block d-md-flex justify-content-center align-items-center p-2 m-2 fw-bolder bg-light shadow-lg ">
+        <div class="row d-sm-block d-md-flex justify-content-center align-items-center p-2 fw-bolder bg-warning">
           <!-- Summary Section -->
           <div class="summary col-8 col-md-8 col-sm-8  justify-content-center align-items-center text-center">
             <div>
@@ -83,16 +83,14 @@
             </div>
             <div class="totals">
               <p>Subtotal: $100</p>
-              <h5><span class="bg-danger text-white rounded p-1">Total: $100</span></h5>
+              <h5><span class="bg-danger text-white rounded-pill p-1">Total: $100</span></h5>
             </div>
-
-            
-          <div class="text-center mt-4">
-            <button class="btn btn-success">View Cart</button>
-          </div>
           </div>
           </div>
       
+          <div class="text-center mt-4">
+            <button class="btn btn-success">View Cart</button>
+          </div>
     
         </div>
 
