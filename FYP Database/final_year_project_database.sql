@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 17, 2024 at 01:17 PM
+-- Generation Time: May 19, 2024 at 09:10 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -20,6 +20,22 @@ SET time_zone = "+00:00";
 --
 -- Database: `final_year_project_database`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `buyers table`
+--
+
+CREATE TABLE `buyers table` (
+  `Id` int(255) NOT NULL,
+  `Buyer Name` varchar(255) NOT NULL,
+  `Buyer Email` varchar(255) NOT NULL,
+  `Buyer Phone` varchar(255) NOT NULL,
+  `Password` varchar(255) NOT NULL,
+  `Confirm Password` varchar(255) NOT NULL,
+  `Buyer Profile Image` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -132,6 +148,12 @@ CREATE TABLE `seller table` (
 --
 
 --
+-- Indexes for table `buyers table`
+--
+ALTER TABLE `buyers table`
+  ADD PRIMARY KEY (`Id`);
+
+--
 -- Indexes for table `cameras table`
 --
 ALTER TABLE `cameras table`
@@ -176,6 +198,12 @@ ALTER TABLE `seller table`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `buyers table`
+--
+ALTER TABLE `buyers table`
+  MODIFY `Id` int(255) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `cameras table`

@@ -1,0 +1,31 @@
+<table class="table table-responsive table-hover table-bordered">
+        <thead>
+            <tr class="table-dark">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th class="d-none d-md-block">Profile Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Zahid Khattak</td>
+                <td>Zahidkhattakcs@gmail.com</td>
+                <td>03348854074</td>
+                <td class="d-none d-md-block"><img src="../../assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" alt="" class="img-fluid w-25"></td>
+            </tr>
+            <tr>
+                <td>Bilal Ahmad</td>
+                <td>bilalinfo@gmail.com</td>
+                <td>03348854074</td>
+                <td class="d-none d-md-block"><img src="../../assets/Team Members Images/Bilal.png" alt="" class="img-fluid w-25"></td>
+            </tr>
+
+            <tr>
+                <td>Shahzad</td>
+                <td>shahzad@gmail.com</td>
+                <td>03348854074</td>
+                <td class="d-none d-md-block"><img src="../../assets/Team Members Images/Muhammad Shahzad Designer.jpg" alt="" class="img-fluid w-25"></td>
+            </tr>
+        </tbody>
+    </table>
