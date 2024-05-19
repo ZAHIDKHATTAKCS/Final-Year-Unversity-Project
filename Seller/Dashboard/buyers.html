@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Dashboard</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="../../assets/Bootstrap 5/css/bootstrap.min.css" />
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- min.js link -->
+  <script type="text/JavaScript" src="../../assets/Bootstrap 5/js/bootstrap.min.js"></script>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- css link -->
+  <link rel="stylesheet" href="../../assets/Custom Css/fyp.css" />
+</head>
+
+<style>
+  .maindiv {
+    height: 100vh;
+    width: 100%;
+  }
+
+  ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    h4 {
+      font-size: medium;
+    }
+  }
+
+  @media screen and (min-width: 1024px) and (max-width: 1440px) {
+    h4 {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .link {
+      font-size: 27px;
+    }
+  }
+</style>
+
+<body class="body">
+  <div class="maindiv row">
+    <aside
+      class="col-5 col-md-3 d-flex flex-column justify-content-center align-items-center text-white bg-dark border border-danger">
+      <img src="../../assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" alt=""
+        class="mt-3 w-75 border border-white rounded-circle" />
+      <h4 class="text-center mt-3">Welcome Admin</h4>
+      <ul>
+        <li class="py-4">
+          <a href="dashboard.html" class="btn btn-outline-info link">Home</a>
+        </li>
+        <li class="py-4">
+          <a href="./home.html" class="btn btn-outline-info link">Buyers</a>
+        </li>
+        <li class="py-4">
+          <a href="./home.html" class="btn btn-outline-info link">Orders</a>
+        </li>
+        <li class="py-4">
+          <a href="./home.html" class="btn btn-outline-info link">Logout</a>
+        </li>
+      </ul>
+    </aside>
+    
+    <!-- main -->
+    <main class="d-flex flex-column justify-content-center align-items-center col-7 col-md-9 border border-dark bg-white text-dark p-4">
+    <h4 class="text-center">Hey! Admin Here are the all buyers Details</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+
+
+    </main>
+  </div>
+</body>
+
+</html>
