@@ -84,7 +84,7 @@
 
 <body class="body">
     <!-- for Mobile View -->
-    <div class="maindiv d-md-none">
+    <div class="maindiv d-md-none h-100">
         <header class="border border-dark d-flex justify-content-between bg-dark align-items-center">
             <a href="../../../home.html" class="w-25">
                 <img src="../../../assets/Icons/main_logo.jpeg" alt="" class="w-100 h-100 img-fluid" />
@@ -108,7 +108,7 @@
                     </div>
                     <div class="offcanvas-body">
                         <div class="h-100">
-                            <ul class="d-flex flex-column justify-content-between border border-danger fs-3">
+                            <ul class="d-flex flex-column justify-content-between fs-3">
                                 <li><a href="../dashboard.html">Home</a></li>
                                 <li><a href="../buyers.html">Buyers</a></li>
                                 <li><a href="../Add product.html">Add Product</a></li>
@@ -122,34 +122,47 @@
                 class="w-25 img-fluid" />
         </header>
 
-        <!-- cards div -->
-        <div
-            class="row d-md-none mt-3 w-100 d-flex flex-column justify-content-between align-items-center text-dark gap-3">
-            <!-- card 1 -->
-            <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light">
-                <img class="card-img-top w-25 mt-3" src="../Icons/buyers.jpeg" alt="" />
-                <div class="card-body">
-                    <h4 class="card-title">Total Users</h4>
-                    <p class="card-text text-center">23</p>
-                </div>
-            </div>
+        <!-- Content div -->
+        <div class="d-flex flex-column justify-content-center align-items-center  text-dark text-center h-100 bg-white overflow-scroll ">
+            <!-- Add product section -->
+            <div class="col-10 mt-5 border border border-dark rounded-3 shadow-lg mb-3 h-100 overflow-scroll">
+                <img src="../../../assets/Icons/Laptops/Apple Laptops/1.jpg" alt="" class="w-100" />
+                <!-- Add product Form -->
+                <form class="mb-3 text-dark rounded-2 mt-3 p-2">
+                    <!-- Laptop title -->
+                    <div class="input-group mb-3">
+                        <i class="fas fa-laptop input-group-text"></i>
+                        <input type="text" name="" class="form-control" placeholder="Laptop Title" required />
+                    </div>
 
-            <!-- card 2 -->
-            <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light">
-                <img class="card-img-top w-25 mt-3" src="../Icons/categories icon.svg" alt="" />
-                <div class="card-body">
-                    <h4 class="card-title">Total Categories</h4>
-                    <p class="card-text text-center">6</p>
-                </div>
-            </div>
+                    <!-- Laptop Description -->
+                    <div class="input-group mb-3">
+                        <i class="fas fa-laptop input-group-text"></i>
+                        <input type="text" name="" class="form-control" placeholder="Laptop Description" required />
+                    </div>
 
-            <!-- card 3 -->
-            <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light mb-3">
-                <img class="card-img-top w-25 mt-3" src="../Icons/shopify.svg" alt="" />
-                <div class="card-body">
-                    <h4 class="card-title">Total Total Orders</h4>
-                    <p class="card-text text-center">50</p>
-                </div>
+                    <!-- Laptop pic 1 -->
+                    <div class="input-group mb-3">
+                        <input type="file" name="" class="form-control" required />
+                    </div>
+
+                    <!-- Laptop pic 2 -->
+                    <div class="input-group mb-3">
+                        <input type="file" name="" class="form-control" required />
+                    </div>
+
+                    <!-- Laptop pic 3 -->
+                    <div class="input-group mb-3">
+                        <input type="file" name="" class="form-control" required />
+                    </div>
+
+                    <!-- Add product Button -->
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="mt-3 btn btn-success w-100">
+                            Add Product
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -159,7 +172,7 @@
         <!-- admin div -->
         <div class="col-md-3 bg-dark d-md-flex flex-md-column justify-content-md-center align-items-md-center h-100">
             <img src="../../../assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" alt=""
-                class="w-50 rounded-circle img-fluid mt-1" />
+                class="w-50 rounded-circle img-fluid mt-1 border border-3 border-white" />
             <h3>Welcome Admin</h3>
             <ul class="text-decoration-none w-100 h-100 fs-4">
                 <li>

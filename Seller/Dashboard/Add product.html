@@ -79,7 +79,6 @@
     ::-webkit-scrollbar {
       display: none;
     }
-    
   </style>
 </head>
 
@@ -109,7 +108,7 @@
           </div>
           <div class="offcanvas-body">
             <div class=" h-100">
-              <ul class="d-flex flex-column justify-content-between border border-danger fs-3">
+              <ul class="d-flex flex-column justify-content-between fs-3">
                 <li><a href="dashboard.html">Home</a></li>
                 <li><a href="buyers.html">Buyers</a></li>
                 <li><a href="Add product.html">Add Product</a></li>
@@ -122,36 +121,82 @@
       <img src="../../assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" alt="" class="w-25 img-fluid">
     </header>
 
+    <!-- Add product -->
+    <div class="d-blcok text-dark text-center bg-white p-4">
+      <h3>Hi Admin Select Category to Add Products</h3>
+      <!-- category section -->
+      <div class=" w-100 overflow-scroll p-3 rounded-3">
+        <div class="d-flex flex-column gap-4  ">
+          <!-- Card 1 -->
+          <div class="card d-flex justify-content-center align-items-center ">
+            <img src="../../assets/Icons/Laptops/laptop.png" class="card-img-top img-fluid" alt="Card top image" />
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title text-dark">Laptops</h5>
+            </div>
+            <a href="Add Products/laptops.html" class="btn btn-outline-success mb-3">Add Product</a>
+          </div>
+          <!-- Card 1 End -->
 
-    <!-- cards div -->
-    <div class="row d-md-none mt-3 w-100 d-flex flex-column justify-content-between align-items-center text-dark gap-3">
-      <!-- card 1 -->
-      <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light">
-        <img class="card-img-top w-25 mt-3" src="Icons/buyers.jpeg" alt="">
-        <div class="card-body">
-          <h4 class="card-title">Total Users</h4>
-          <p class="card-text text-center">23</p>
+          <!-- Card 2 -->
+          <div class="card d-flex justify-content-center align-items-center">
+            <img src="../../assets/Icons/Cameras/camera1.png" class="card-img-top img-fluid w-75 mt-3"
+              alt="Card top image" />
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title text-dark">Cameras</h5>
+            </div>
+            <a href="Add Products/Camera.html" class="btn btn-outline-success mb-3">Add Product</a>
+          </div>
+          <!-- Card 2 End -->
+
+          <!-- Card 3 -->
+          <div class="card d-flex justify-content-center align-items-center">
+            <img src="../../assets/Icons/Headphones/headphones.jpg" class="card-img-top img-fluid"
+              alt="Card top image" />
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+              <h5 class="card-title text-dark">Headphones</h5>
+            </div>
+            <a href="Add Products/Headphone.html" class="btn btn-outline-success mb-3">Add Product</a>
+          </div>
+          <!-- Card 3 End -->
         </div>
       </div>
+      <br>
 
-      <!-- card 2 -->
-      <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light">
-        <img class="card-img-top w-25 mt-3" src="Icons/categories icon.svg" alt="">
-        <div class="card-body">
-          <h4 class="card-title">Total Categories</h4>
-          <p class="card-text text-center">6</p>
+      <!-- row 2 starts here -->
+      <div class="d-flex flex-column gap-4 p-3">
+        <!-- Card 4 -->
+        <div class="card d-flex justify-content-center align-items-center">
+          <img src="../../assets/Icons/LCD/Dell LCD/1.jpg" class="card-img-top img-fluid" alt="Card top image" />
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title text-dark">Monitors</h5>
+          </div>
+          <a href="Add Products/Monitors.html" class="btn btn-outline-success mb-3">Add Product</a>
         </div>
-      </div>
+        <!-- Card 4 End -->
 
-      <!-- card 3 -->
-      <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light mb-3">
-        <img class="card-img-top w-25 mt-3" src="Icons/shopify.svg" alt="">
-        <div class="card-body">
-          <h4 class="card-title">Total Total Orders</h4>
-          <p class="card-text text-center">50</p>
+        <!-- Card 5 -->
+        <div class="card d-flex justify-content-center align-items-center ">
+          <img src="../../assets/Icons/Laptop Stands/Normal Stand/1.jpg" class="card-img-top img-fluid w-75 mt-3"
+            alt="Card top image" />
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title text-dark">Laptops Stand</h5>
+          </div>
+          <a href="Add Products/Laptops Stands.html" class="btn btn-outline-success mb-3">Add Product</a>
         </div>
+        <!-- Card 5 End -->
+
+        <!-- Card 6 -->
+        <div class="card d-flex justify-content-center align-items-center">
+          <img src="../../assets/Icons/Computer/Tower PC/1.jpg" class="card-img-top img-fluid" alt="Card top image" />
+          <div class="card-body d-flex flex-column justify-content-center align-items-center">
+            <h5 class="card-title text-dark">Personal Computers</h5>
+          </div>
+          <a href="Add Products/Personal Computers.html" class="btn btn-outline-success mb-3">Add Product</a>
+        </div>
+        <!-- Card 6 End -->
       </div>
     </div>
+  </div>
   </div>
 
 
@@ -172,78 +217,83 @@
     </div>
 
     <!-- Content div -->
-    <div class="col-md-9 d-none d-md-flex flex-md-column justify-content-md-between align-items-md-center text-dark text-center h-100 bg-white p-4">
+    <div
+      class="col-md-9 d-none d-md-flex flex-md-column justify-content-md-between align-items-md-center text-dark text-center h-100 bg-white p-4">
       <h3>Hi Admin Select Category to Add Products</h3>
       <!-- category section -->
       <div class="border border border-dark w-100 overflow-scroll p-3 rounded-3">
         <div class="popular-categories-cards gap-4 d-md-flex flex-column justify-content-between">
           <div class="d-md-flex  justify-content-md-between ">
             <!-- Card 1 -->
-          <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
-            <img src="../../assets/Icons/Laptops/laptop.png" class="card-img-top img-fluid" alt="Card top image" />
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title text-dark">Laptops</h5>
+            <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
+              <img src="../../assets/Icons/Laptops/laptop.png" class="card-img-top img-fluid" alt="Card top image" />
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title text-dark">Laptops</h5>
+              </div>
+              <a href="Add Products/laptops.html" class="btn btn-outline-success mb-3">Add Product</a>
             </div>
-            <a href="Add Products/laptops.html" class="btn btn-outline-success mb-3">Add Product</a>
-          </div>
-          <!-- Card 1 End -->
-    
-          <!-- Card 2 -->
-          <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
-            <img src="../../assets/Icons/Cameras/camera1.png" class="card-img-top img-fluid w-75 mt-3" alt="Card top image" />
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title text-dark">Cameras</h5>
+            <!-- Card 1 End -->
+
+            <!-- Card 2 -->
+            <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
+              <img src="../../assets/Icons/Cameras/camera1.png" class="card-img-top img-fluid w-75 mt-3"
+                alt="Card top image" />
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title text-dark">Cameras</h5>
+              </div>
+              <a href="Add Products/Camera.html" class="btn btn-outline-success mb-3">Add Product</a>
             </div>
-            <a href="Add Products/Camera.html" class="btn btn-outline-success mb-3">Add Product</a>
-          </div>
-          <!-- Card 2 End -->
-    
-          <!-- Card 3 -->
-          <div class="card col-md-3 d-flex justify-content-center align-items-center">
-            <img src="../../assets/Icons/Headphones/headphones.jpg" class="card-img-top img-fluid" alt="Card top image" />
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title text-dark">Headphones</h5>
+            <!-- Card 2 End -->
+
+            <!-- Card 3 -->
+            <div class="card col-md-3 d-flex justify-content-center align-items-center">
+              <img src="../../assets/Icons/Headphones/headphones.jpg" class="card-img-top img-fluid"
+                alt="Card top image" />
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title text-dark">Headphones</h5>
+              </div>
+              <a href="Add Products/Headphone.html" class="btn btn-outline-success mb-3">Add Product</a>
             </div>
-            <a href="Add Products/Headphone.html" class="btn btn-outline-success mb-3">Add Product</a>
-          </div>
-          <!-- Card 3 End -->
+            <!-- Card 3 End -->
           </div>
 
           <div class="d-md-flex justify-content-md-between">
             <!-- Card 4 -->
-          <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
-            <img src="../../assets/Icons/LCD/Dell LCD/1.jpg" class="card-img-top img-fluid" alt="Card top image" />
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title text-dark">Monitors</h5>
+            <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
+              <img src="../../assets/Icons/LCD/Dell LCD/1.jpg" class="card-img-top img-fluid" alt="Card top image" />
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title text-dark">Monitors</h5>
+              </div>
+              <a href="Add Products/Monitors.html" class="btn btn-outline-success mb-3">Add Product</a>
             </div>
-            <a href="Add Products/Monitors.html" class="btn btn-outline-success mb-3">Add Product</a>
-          </div>
-          <!-- Card 4 End -->
-    
-          <!-- Card 5 -->
-          <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
-            <img src="../../assets/Icons/Laptop Stands/Normal Stand/1.jpg" class="card-img-top img-fluid w-75 mt-3" alt="Card top image" />
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title text-dark">Laptops Stand</h5>
+            <!-- Card 4 End -->
+
+            <!-- Card 5 -->
+            <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
+              <img src="../../assets/Icons/Laptop Stands/Normal Stand/1.jpg" class="card-img-top img-fluid w-75 mt-3"
+                alt="Card top image" />
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title text-dark">Laptops Stand</h5>
+              </div>
+              <a href="Add Products/Laptops Stands.html" class="btn btn-outline-success mb-3">Add Product</a>
             </div>
-            <a href="Add Products/Laptops Stands.html" class="btn btn-outline-success mb-3">Add Product</a>
-          </div>
-          <!-- Card 5 End -->
-    
-          <!-- Card 3 -->
-          <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
-            <img src="../../assets/Icons/Computer/Tower PC/1.jpg" class="card-img-top img-fluid" alt="Card top image" />
-            <div class="card-body d-flex flex-column justify-content-center align-items-center">
-              <h5 class="card-title text-dark">Personal Computers</h5>
+            <!-- Card 5 End -->
+
+            <!-- Card 3 -->
+            <div class="card col-md-3 d-flex justify-content-center align-items-center col-sm-8">
+              <img src="../../assets/Icons/Computer/Tower PC/1.jpg" class="card-img-top img-fluid"
+                alt="Card top image" />
+              <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h5 class="card-title text-dark">Personal Computers</h5>
+              </div>
+              <a href="Add Products/Personal Computers.html" class="btn btn-outline-success mb-3">Add Product</a>
             </div>
-            <a href="Add Products/Personal Computers.html" class="btn btn-outline-success mb-3">Add Product</a>
+            <!-- Card 3 End -->
           </div>
-          <!-- Card 3 End -->
-          </div>
-          
 
 
-          
+
+
         </div>
       </div>
     </div>
