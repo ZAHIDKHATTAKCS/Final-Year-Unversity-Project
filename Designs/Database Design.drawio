@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="4uY1Wkv4jOmvWr4ypLzb" name="Page-1">
-        <mxGraphModel dx="1166" dy="877" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="892" dy="614" grid="1" gridSize="9" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -20,28 +20,31 @@
                     <mxGeometry x="50" y="120" width="256" height="141" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="&lt;h1&gt;&lt;b&gt;LaptopTable&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, Laptop Title, Laptop Description,&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;&amp;nbsp;Picture 1, Picture 2, Picture 3&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="513" width="265" height="138" as="geometry"/>
+                    <mxGeometry x="43.25" y="441" width="265" height="138" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="&lt;h1&gt;Cameras Table&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, CameraTitle, Camera Description,&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;&amp;nbsp;Picture 1, Picture 2, Picture 3&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="702" width="265" height="143" as="geometry"/>
+                    <mxGeometry x="43.25" y="597" width="265" height="143" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="&lt;h1&gt;&lt;b&gt;Headphones Table&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, Headphone Title, Headphone Description, Picture 1, Picture 2, Picture 3&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="45.5" y="864" width="269.5" height="135" as="geometry"/>
+                    <mxGeometry x="43.25" y="756" width="269.5" height="135" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="&lt;h1&gt;&lt;b&gt;Monitors Table&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, Monitor Title, Monitor Description, Picture 1, Picture 2, Picture 3&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="126" width="256" height="153" as="geometry"/>
+                    <mxGeometry x="531" y="114" width="274" height="153" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="&lt;h1&gt;&lt;b&gt;Personal Computers Table&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, Personal Computer Title,&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3&gt;&lt;b style=&quot;background-color: initial; color: rgb(102, 255, 102); font-size: 12px;&quot;&gt;&amp;nbsp;Personal Computer Description,&lt;/b&gt;&lt;/h3&gt;&lt;h3&gt;&lt;b style=&quot;background-color: initial; color: rgb(102, 255, 102); font-size: 12px;&quot;&gt;&amp;nbsp;Picture 1, Picture 2, Picture 3&lt;/b&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="550" width="330" height="190" as="geometry"/>
+                    <mxGeometry x="535" y="459" width="266" height="171" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="&lt;h1&gt;Laptop Stands Table&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, Laptop Stand Title, Laptop Stand Description,&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;&amp;nbsp;Picture 1, Picture 2, Picture 3&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="330" width="330" height="190" as="geometry"/>
+                    <mxGeometry x="535" y="288" width="270" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="&lt;h1&gt;&lt;b&gt;New Arrivals Table&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, New Product Title,&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3&gt;&lt;b style=&quot;background-color: initial; color: rgb(102, 255, 102); font-size: 12px;&quot;&gt;&amp;nbsp;New Product Price,&lt;/b&gt;&lt;/h3&gt;&lt;h3&gt;&lt;b style=&quot;background-color: initial; color: rgb(102, 255, 102); font-size: 12px;&quot;&gt;&amp;nbsp;Picture 1&lt;/b&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="801" width="330" height="190" as="geometry"/>
+                    <mxGeometry x="43" y="900" width="270" height="127" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="&lt;h1&gt;&lt;b&gt;Buyers Table&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, Buyer Name, Buyer Email ,&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 14px; font-weight: normal;&quot; color=&quot;#66ff66&quot;&gt;&lt;b&gt;Buyer Phone,&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal; color: rgb(102, 255, 102);&quot;&gt;Password,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal; color: rgb(102, 255, 102);&quot;&gt;C-Password, Buyer&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal; color: rgb(102, 255, 102);&quot;&gt;&amp;nbsp;picture,&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="306" width="256" height="141" as="geometry"/>
+                <mxCell id="21" value="&lt;h1&gt;&lt;b&gt;Buyers Table&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Id, Buyer Name, Buyer Email ,&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 14px; font-weight: normal;&quot; color=&quot;#66ff66&quot;&gt;&lt;b&gt;Buyer Phone,&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal; color: rgb(102, 255, 102);&quot;&gt;Password,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal; color: rgb(102, 255, 102);&quot;&gt;C-Password, Buyer&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 14px; font-weight: normal; color: rgb(102, 255, 102);&quot;&gt;&amp;nbsp;picture,&lt;/span&gt;&lt;/h3&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="47.75" y="279" width="256" height="141" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;h1&gt;&lt;b&gt;Order Table&lt;/b&gt;&lt;/h1&gt;&lt;h3&gt;&lt;font color=&quot;#66ff66&quot;&gt;&lt;b style=&quot;&quot;&gt;Order Id, Product Name, Product Description ,&lt;/b&gt;&lt;/font&gt;&lt;/h3&gt;&lt;h3&gt;&lt;b style=&quot;background-color: initial; color: rgb(102, 255, 102); font-size: 12px;&quot;&gt;&amp;nbsp;Product&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial; color: rgb(102, 255, 102); font-size: 12px;&quot;&gt;Picture 1, Product Picture 2, Product Picture 3&lt;/b&gt;&lt;/h3&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="531" y="655" width="266" height="171" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
