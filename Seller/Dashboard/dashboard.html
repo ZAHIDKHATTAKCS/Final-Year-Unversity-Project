@@ -26,110 +26,175 @@
 
   <!-- favicon -->
   <link rel="shortcut icon" href="Icons/dashboard.png" type="image/x-icon">
+
+  <style>
+    body{
+      height: 100vh;
+    }
+    .maindiv{
+      height: 100vh;
+    }
+    .main{
+      height: 100vh;
+    }
+  
+    ul {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+  
+    ul li {
+      list-style-type: none;
+    }
+  
+    ul li a {
+      text-decoration: none;
+    }
+  
+    @media screen and (min-width: 320px) and (max-width: 768px) {
+      h4 {
+        font-size: medium;
+      }
+    }
+  
+    @media screen and (min-width: 1024px) and (max-width: 1440px) {
+      h4 {
+        font-size: 30px;
+      }
+    }
+  
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      .link {
+        font-size: 27px;
+      }
+    }
+  </style>
 </head>
 
-<style>
-  .maindiv {
-    height: 100vh;
-    width: 100%;
-  }
 
-  ul {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-  }
-
-  ul li {
-    list-style-type: none;
-  }
-
-  ul li a {
-    text-decoration: none;
-  }
-
-  @media screen and (min-width: 320px) and (max-width: 768px) {
-    h4 {
-      font-size: medium;
-    }
-  }
-
-  @media screen and (min-width: 1024px) and (max-width: 1440px) {
-    h4 {
-      font-size: 30px;
-    }
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .link {
-      font-size: 27px;
-    }
-  }
-</style>
 
 <body class="body">
-  <div class="maindiv row">
-    <aside
-      class="col-5 col-md-3 d-flex flex-column justify-content-center align-items-center text-white bg-dark">
-      <img src="../../assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" alt=""
-        class="mt-3 w-75 border border-white rounded-circle" />
-      <h4 class="text-center mt-3">Welcome Admin</h4>
-      <ul>
-        <li class="py-4">
-          <a href="dashboard.html" class="btn btn-outline-info link">Home</a>
-        </li>
-        <li class="py-4">
-          <a href="./buyers.html" class="btn btn-outline-info link">Buyers</a>
-        </li>
-        <li class="py-4">
-          <a href="./Add product.html" class="btn btn-outline-info link">Add Product</a>
-        </li>
-        <li class="py-4">
-          <a href="./home.html" class="btn btn-outline-info link">Logout</a>
-        </li>
-      </ul>
-    </aside>
+
+
+  <!-- for Mobile View -->
+  <div class="maindiv d-md-none">
+    <header class="border border-dark d-flex justify-content-between bg-dark align-items-center">
+      <a href="../../home.html" class="w-25">
+        <img src="../../assets/Icons/main_logo.jpeg" alt="" class="w-100 h-100 img-fluid">
+      </a>
+      <!-- <p class="text-center d-flex align-self-center fs-6">Admin Welcome to Dashboard</p> -->
+
+      <div class="container mt-2 text-dark w-25 h-25">
+        <!-- Button to trigger offcanvas -->
+        <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          Menu
+        </button>
     
-    <!-- main -->
-    <main class="d-flex flex-column justify-content-center align-items-center col-7 col-md-9 border border-dark bg-white text-dark p-4">
-      <h4 class="text-center">Welcome to the Dashboard Admin</h4>
-
-      <div class="cards mt-4 row w-100 d-flex flex-column flex-md-row justify-content-center align-items-center gap-4">
-
-        <!-- card 1 -->
-        <div class="card col-12 col-md-3 text-center p-4">
-          <i class="fas fa-users fs-1 mb-3"></i>
-            <div class="m-0 p-0">
-              <p>Total Users</p>
-              <p>23</p>
-            </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="card col-12 col-md-3 text-center p-4">
-          <i class="fas fa-th-large fs-1 mb-3"></i>
-            <div class="m-0 p-0">
-              <p>Total Categories</p>
-              <p>23</p>
+        <!-- Offcanvas component -->
+        <div class="offcanvas offcanvas-start"  id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Admin! Welcome to Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class=" h-100">
+              <ul class="d-flex flex-column justify-content-between border border-danger fs-3">
+                <li><a href="dashboard.html">Home</a></li>
+                <li><a href="buyers.html" >Buyers</a></li>
+                <li><a href="Add product.html" >Add Product</a></li>
+                <li><a href="" >Log out</a></li>
+              </ul>
             </div>
           </div>
-
-        <!-- Card 3 -->
-        <div class="card col-12 col-md-3 text-center p-4">
-          <i class="fas fa-shopping-cart fs-1 mb-3"></i>
-            <div class="m-0 p-0">
-              <p>Total Orders</p>
-              <p>24</p>
-            </div>
         </div>
-        
       </div>
-    </main>
+      <img src="../../assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" alt="" class="w-25 img-fluid">
+    </header>
+
+
+    <!-- cards div -->
+    <div class="row d-md-none mt-3 w-100 d-flex flex-column justify-content-between align-items-center text-dark gap-3">
+      <!-- card 1 -->
+      <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light">
+        <img class="card-img-top w-25 mt-3" src="Icons/buyers.jpeg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Total Users</h4>
+          <p class="card-text text-center">23</p>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light">
+        <img class="card-img-top w-25 mt-3" src="Icons/categories icon.svg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Total Categories</h4>
+          <p class="card-text text-center">6</p>
+        </div>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card col-10 d-flex flex-column justify-content-center align-items-center bg-light mb-3">
+        <img class="card-img-top w-25 mt-3" src="Icons/shopify.svg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Total Total Orders</h4>
+          <p class="card-text text-center">50</p>
+        </div>
+      </div>
+    </div>
   </div>
+
+
+  <!-- for Laptop and big screens -->
+  <div class="row d-md-flex align-items-md-center d-none w-100 border border-danger main">
+    <!-- admin div -->
+    <div class="col-md-3 bg-dark d-md-flex flex-md-column justify-content-md-center align-items-md-center h-100">
+      <img src="../../assets/Team Members Images/Muhammad Zahid Backend Developer.JPG" alt="" class="w-50 rounded-circle img-fluid border border-white mt-1">
+      <h3>Welcome Admin</h3>
+      <ul class="text-decoration-none w-100 h-100 fs-4">
+        <li><a href="./dashboard.html" class="btn btn-outline-info mt-4">Home</a></li>
+        <li><a href="./buyers.html" class="btn btn-outline-info mt-4">Buyers</a></li>
+        <li><a href="#" class="btn btn-outline-info mt-4">Orders</a></li>
+        <li><a href="./Add product.html" class="btn btn-outline-info mt-4">Add Product</a></li>
+        <li><a href="" class="btn btn-outline-info mt-4">Logout</a></li>
+      </ul>
+    </div>
+
+    <!-- Content div -->
+    <div class="col-md-9 d-none d-md-flex justify-content-md-between align-items-md-center text-dark text-center h-100">
+      <!-- card 1 -->
+      <div class="card col-md-3 d-flex flex-column justify-content-center align-items-center bg-light">
+        <img class="card-img-top w-25 mt-3" src="Icons/buyers.jpeg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Total Users</h5>
+          <p class="card-text text-center">23</p>
+        </div>
+      </div>
+  
+      <!-- card 2 -->
+      <div class="card col-md-3 d-flex flex-column justify-content-center align-items-center bg-light">
+        <img class="card-img-top w-25 mt-2" src="Icons/categories icon.svg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Total Categories</h5>
+          <p class="card-text text-center">6</p>
+        </div>
+      </div>
+  
+      <!-- card 3 -->
+      <div class="card col-md-3 d-flex flex-column justify-content-center align-items-center bg-light mb-3">
+        <img class="card-img-top w-25 mt-2" src="Icons/shopify.svg" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Total Total Orders</h5>
+          <p class="card-text text-center">50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
